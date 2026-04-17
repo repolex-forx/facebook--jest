@@ -1,0 +1,86 @@
+[2026-04-17T03:15:02Z] === ENRICH ITERATION 4 START | repo=facebook/jest sha=67c1aa20 ===
+[2026-04-17T03:15:02Z] [iter=4] PHASE START: enrich repo=facebook/jest sha=67c1aa20 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/67c1aa20-enrich-iter-004.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850.nq.gz
+[2026-04-17T03:15:54Z] [iter=4] Step 1: Loading AST into disk-backed store mem_mb=84 MB
+[2026-04-17T03:19:09Z] [iter=4] AST store loaded triples=9309439 load_secs=191 mem_mb=978 MB
+[2026-04-17T03:19:09Z] [iter=4] Step 2: Finding LSP targets mem_mb=978 MB
+[2026-04-17T03:19:17Z] [iter=4] LSP targets found call_sites=81315 imports=2227 extends=133 implements=9 secs=8
+[2026-04-17T03:19:24Z] [iter=4] Loaded checkpoint partial graph triples=226498
+[2026-04-17T03:19:29Z] [iter=4] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=978 MB
+[2026-04-17T03:20:08Z] [iter=4] Position index built positions=604380 nodes_with_types=724270 secs=39 mem_mb=2005 MB
+[2026-04-17T03:20:08Z] [iter=4] Step 3: Starting LSP resolution mem_mb=2005 MB already_completed_types=[] already_completed_files=185
+[2026-04-17T03:20:08Z] [iter=4] Resolving target type target_type=call_site count=81315
+[2026-04-17T03:20:08Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=0 resolved=0 errors=0 current=packages/jest-haste-map/src/watchers/NodeWatcher.js
+[2026-04-17T03:23:06Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=1 resolved=9 errors=60 current=e2e/custom-inline-snapshot-matchers/__tests__/asynchronous.test.js
+[2026-04-17T03:24:14Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=3 resolved=10 errors=82 current=e2e/presets/js-type-module/__tests__/index.js
+[2026-04-17T03:24:48Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=8 resolved=12 errors=93 current=packages/jest-repl/src/__tests__/test_root/logging.js
+[2026-04-17T03:25:25Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=10.4 files_done=14 resolved=14 errors=105 current=e2e/snapshot-serializers/__tests__/snapshot.test.js
+[2026-04-17T03:26:01Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=11.0 files_done=16 resolved=21 errors=117 current=e2e/bad-source-map/__tests__/badSourceMap.js
+[2026-04-17T03:28:03Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=20 resolved=53 errors=158 current=e2e/global-setup/__tests__/setup3.test.js
+[2026-04-17T03:29:06Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=14.1 files_done=23 resolved=55 errors=179 current=packages/jest-core/src/__tests__/testSchedulerHelper.test.js
+[2026-04-17T03:29:48Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=24 resolved=55 errors=193 current=e2e/jasmine-async/__tests__/generator.test.js
+[2026-04-17T03:30:34Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=29 resolved=57 errors=208 current=e2e/stack-trace/__tests__/testError.test.js
+[2026-04-17T03:31:04Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=35 resolved=67 errors=218 current=e2e/test-todo/__tests__/verbose.test.js
+[2026-04-17T03:31:49Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=40 resolved=68 errors=233 current=e2e/babel-plugin-jest-hoist/__tests__/importJest.test.js
+[2026-04-17T03:33:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=18.0 files_done=42 resolved=72 errors=257 current=packages/jest-cli/bin/jest.js
+[2026-04-17T03:33:37Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=49 resolved=76 errors=268 current=e2e/babel-plugin-jest-hoist/__tests__/integrationAutomockOff.test.js
+[2026-04-17T03:34:16Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=55 resolved=76 errors=281 current=e2e/focused-tests/__tests__/tests.js
+[2026-04-17T03:34:49Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=61 resolved=76 errors=292 current=e2e/custom-resolver/manualMock.js
+[2026-04-17T03:35:28Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=66 resolved=78 errors=305 current=packages/jest-runtime/src/__tests__/runtime_require_actual.test.js
+[2026-04-17T03:38:33Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=70 resolved=78 errors=367 current=packages/jest-runtime/src/__tests__/test_root/RegularModule.js
+[2026-04-17T03:39:12Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=24.2 files_done=76 resolved=86 errors=380 current=e2e/custom-test-sequencer/testSequencer.js
+[2026-04-17T03:39:46Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=84 resolved=90 errors=391 current=e2e/watch-plugins/mjs/__tests__/index.js
+[2026-04-17T03:40:17Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=88 resolved=92 errors=401 current=e2e/global-setup-esm/setup.js
+[2026-04-17T03:40:49Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=25.8 files_done=90 resolved=92 errors=412 current=packages/jest-runtime/src/__tests__/runtime_wrap.js
+[2026-04-17T03:41:28Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=26.4 files_done=98 resolved=96 errors=425 current=e2e/jasmine-async/__tests__/promiseAfterAll.test.js
+[2026-04-17T03:42:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=106 resolved=97 errors=436 current=e2e/failureDetails-property/__tests__/tests.test.js
+[2026-04-17T03:42:40Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=27.6 files_done=114 resolved=98 errors=449 current=e2e/error-on-deprecated/__tests__/fail.test.js
+[2026-04-17T03:43:25Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=117 resolved=98 errors=464 current=packages/jest-core/src/__tests__/FailedTestsCache.test.js
+[2026-04-17T03:43:59Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=28.9 files_done=124 resolved=101 errors=475 current=e2e/each/__tests__/eachException.test.js
+[2026-04-17T03:44:29Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=29.4 files_done=137 resolved=112 errors=485 current=e2e/wrong-env/__tests__/node.js
+[2026-04-17T03:45:01Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=30.0 files_done=149 resolved=124 errors=495 current=e2e/coverage-without-transform/__tests__/test.js
+[2026-04-17T03:45:32Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=30.5 files_done=157 resolved=126 errors=505 current=e2e/filter/my-broken-filter.js
+[2026-04-17T03:46:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=31.0 files_done=166 resolved=136 errors=515 current=packages/jest-repl/src/__tests__/runtime_cli.test.js
+[2026-04-17T03:46:35Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=31.5 files_done=171 resolved=137 errors=526 current=e2e/multiple-configs/__tests__/test.js
+[2026-04-17T03:47:21Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=32.3 files_done=183 resolved=141 errors=541 current=e2e/custom-test-sequencer/d.test.js
+[2026-04-17T03:47:56Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=32.9 files_done=193 resolved=146 errors=552 current=e2e/browser-resolver/resolver.js
+[2026-04-17T03:48:32Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=33.5 files_done=205 resolved=151 errors=564 current=e2e/filter/my-secondary-filter.js
+[2026-04-17T03:49:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=34.0 files_done=217 resolved=159 errors=574 current=e2e/fake-time/legacy/from-config/__tests__/test.js
+[2026-04-17T03:49:33Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=34.5 files_done=224 resolved=159 errors=584 current=e2e/fake-promises/asap/__tests__/generator.test.js
+[2026-04-17T03:50:04Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=35.0 files_done=233 resolved=161 errors=594 current=e2e/transform/multiple-transformers/__tests__/multipleTransformers.test.js
+[2026-04-17T03:50:36Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=35.6 files_done=241 resolved=163 errors=604 current=e2e/native-esm/fromEsm.cjs
+[2026-04-17T03:51:09Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=36.1 files_done=251 resolved=165 errors=615 current=e2e/snapshot-serializers/plugins/foo/index.js
+[2026-04-17T03:51:41Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=36.7 files_done=270 resolved=168 errors=625 current=e2e/MockStdinWatchPlugin.js
+[2026-04-17T03:52:12Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=37.2 files_done=287 resolved=172 errors=635 current=e2e/filter/my-filter.js
+[2026-04-17T03:52:44Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=37.7 files_done=293 resolved=174 errors=646 current=packages/jest-haste-map/src/watchers/RecrawlWarning.js
+[2026-04-17T03:53:16Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=38.2 files_done=309 resolved=192 errors=656 current=scripts/babel-plugin-jest-require-outside-vm.js
+[2026-04-17T03:53:48Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=38.8 files_done=323 resolved=194 errors=666 current=e2e/presets/js/__tests__/index.js
+[2026-04-17T03:54:19Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=39.3 files_done=338 resolved=200 errors=676 current=e2e/resolve/hasteImpl.js
+[2026-04-17T03:54:51Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=39.8 files_done=368 resolved=204 errors=686 current=e2e/run-programmatically-multiple-projects/server/server.test.js
+[2026-04-17T03:55:26Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=40.4 files_done=396 resolved=215 errors=697 current=e2e/resolve/Test7.js
+[2026-04-17T03:55:56Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=40.9 files_done=412 resolved=217 errors=707 current=e2e/transform/babel-jest-manual/foo.js
+[2026-04-17T03:56:42Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=41.7 files_done=453 resolved=221 errors=721 current=e2e/resolve-conditions/browser-env.js
+[2026-04-17T03:58:32Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=43.5 files_done=474 resolved=224 errors=758 current=e2e/__tests__/debug.test.ts
+[2026-04-17T04:04:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=49.5 files_done=476 resolved=226 errors=881 current=e2e/__tests__/coverageProviderV8.test.ts
+[2026-04-17T04:05:11Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=50.1 files_done=477 resolved=226 errors=895 current=packages/jest-util/src/__tests__/deepCyclicCopy.test.ts
+[2026-04-17T04:06:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=51.5 files_done=478 resolved=270 errors=922 current=packages/jest-core/src/__tests__/SearchSource.test.ts
+[2026-04-17T04:16:04Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=61.0 files_done=479 resolved=271 errors=1120 current=packages/jest-transform/src/ScriptTransformer.ts
+[2026-04-17T04:22:56Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=67.9 files_done=480 resolved=271 errors=1262 current=packages/jest-jasmine2/src/__tests__/iterators.test.ts
+[2026-04-17T04:38:32Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=83.5 files_done=482 resolved=297 errors=1584 current=packages/jest-jasmine2/src/__tests__/Suite.test.ts
+[2026-04-17T04:40:00Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=85.0 files_done=484 resolved=297 errors=1614 current=packages/jest-types/__typetests__/expect.test.ts
+[2026-04-17T05:09:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=114.9 files_done=485 resolved=297 errors=2229 current=packages/jest-config/src/__tests__/normalize.test.ts
+[2026-04-17T05:17:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=122.6 files_done=486 resolved=303 errors=2388 current=packages/jest-snapshot/src/__tests__/mockSerializer.test.ts
+[2026-04-17T05:18:31Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=123.5 files_done=487 resolved=305 errors=2406 current=packages/expect/src/__tests__/utils.test.ts
+[2026-04-17T05:22:21Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=127.3 files_done=488 resolved=309 errors=2485 current=e2e/__tests__/selectProjects.test.ts
+[2026-04-17T05:23:49Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=128.8 files_done=489 resolved=309 errors=2515 current=packages/jest-haste-map/src/ModuleMap.ts
+[2026-04-17T05:24:59Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=129.9 files_done=490 resolved=309 errors=2539 current=packages/jest-diff/src/__tests__/joinAlignedDiffs.test.ts
+[2026-04-17T05:25:52Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=130.8 files_done=491 resolved=309 errors=2557 current=packages/jest-each/src/__tests__/array.test.ts
+[2026-04-17T05:32:17Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=137.2 files_done=492 resolved=311 errors=2688 current=packages/pretty-format/src/index.ts
+[2026-04-17T05:35:22Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=140.3 files_done=493 resolved=311 errors=2750 current=packages/jest-jasmine2/src/__tests__/itTestError.test.ts
+[2026-04-17T05:37:06Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=142.1 files_done=495 resolved=313 errors=2785 current=packages/jest-cli/src/init/generateConfigFile.ts
+[2026-04-17T05:38:11Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=143.1 files_done=497 resolved=315 errors=2807 current=packages/jest-docblock/src/__tests__/index.test.ts
+[2026-04-17T05:40:05Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=145.0 files_done=498 resolved=315 errors=2846 current=packages/jest-runner/src/index.ts
+[2026-04-17T05:42:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=147.5 files_done=499 resolved=316 errors=2896 current=packages/jest-resolve/src/__tests__/resolve.test.ts
+[2026-04-17T05:45:08Z] [iter=4] CHECKPOINT TRIGGERED elapsed_min=150.1 files_completed=685 new_files_this_iter=500 mem_mb=2036 MB
+[2026-04-17T05:45:08Z] [iter=4] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850.nq.gz triples=247335
+[2026-04-17T05:45:13Z] [iter=4] Checkpoint written, exiting with code 7
+[2026-04-17T05:45:13Z] [iter=4] PHASE END: enrich (checkpointed) elapsed_s=9006 elapsed_min=150.1 files_completed=685
