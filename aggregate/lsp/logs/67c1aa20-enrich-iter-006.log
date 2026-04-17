@@ -1,0 +1,91 @@
+[2026-04-17T09:58:06Z] === ENRICH ITERATION 6 START | repo=facebook/jest sha=67c1aa20 ===
+[2026-04-17T09:58:06Z] [iter=6] PHASE START: enrich repo=facebook/jest sha=67c1aa20 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/67c1aa20-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850.nq.gz
+[2026-04-17T09:58:53Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-04-17T10:00:31Z] [iter=6] AST store loaded triples=9309439 load_secs=95 mem_mb=1082 MB
+[2026-04-17T10:00:31Z] [iter=6] Step 2: Finding LSP targets mem_mb=1082 MB
+[2026-04-17T10:00:42Z] [iter=6] LSP targets found call_sites=81315 imports=2227 extends=133 implements=9 secs=10
+[2026-04-17T10:00:54Z] [iter=6] Loaded checkpoint partial graph triples=273572
+[2026-04-17T10:00:59Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1082 MB
+[2026-04-17T10:01:54Z] [iter=6] Position index built positions=604380 nodes_with_types=724270 secs=54 mem_mb=2125 MB
+[2026-04-17T10:01:54Z] [iter=6] Step 3: Starting LSP resolution mem_mb=2125 MB already_completed_types=[] already_completed_files=745
+[2026-04-17T10:01:54Z] [iter=6] Resolving target type target_type=call_site count=81315
+[2026-04-17T10:01:55Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=0 resolved=0 errors=0 current=packages/jest-message-util/src/index.ts
+[2026-04-17T10:06:59Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=1 resolved=0 errors=84 current=e2e/__tests__/onlyFailuresNonWatch.test.ts
+[2026-04-17T10:07:40Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=9.6 files_done=2 resolved=1 errors=95 current=packages/jest-diff/src/__tests__/getAlignedDiffs.test.ts
+[2026-04-17T10:09:11Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=3 resolved=1 errors=120 current=packages/jest-console/src/getConsoleOutput.ts
+[2026-04-17T10:10:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=4 resolved=1 errors=134 current=packages/jest-circus/src/utils.ts
+[2026-04-17T10:14:28Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=5 resolved=1 errors=208 current=packages/jest-matcher-utils/src/__tests__/Replaceable.test.ts
+[2026-04-17T10:15:22Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=17.3 files_done=6 resolved=6 errors=223 current=packages/jest-jasmine2/src/PCancelable.ts
+[2026-04-17T10:17:26Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=8 resolved=7 errors=257 current=packages/jest-resolve-dependencies/src/index.ts
+[2026-04-17T10:19:32Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=9 resolved=7 errors=292 current=packages/jest-core/src/TestScheduler.ts
+[2026-04-17T10:23:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=25.7 files_done=10 resolved=11 errors=363 current=packages/jest-snapshot/src/printSnapshot.ts
+[2026-04-17T10:27:47Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=29.7 files_done=11 resolved=11 errors=429 current=packages/expect/src/__tests__/matchers-toContain.property.test.ts
+[2026-04-17T10:29:04Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=31.0 files_done=12 resolved=12 errors=450 current=packages/jest-resolve/src/utils.ts
+[2026-04-17T10:30:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=32.0 files_done=13 resolved=12 errors=467 current=e2e/__tests__/toMatchSnapshot.test.ts
+[2026-04-17T10:34:26Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=36.3 files_done=14 resolved=12 errors=539 current=packages/jest-jasmine2/src/assertionErrorMessage.ts
+[2026-04-17T10:37:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=39.0 files_done=15 resolved=12 errors=583 current=packages/expect/src/__tests__/extend.test.ts
+[2026-04-17T10:41:15Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=43.2 files_done=16 resolved=15 errors=652 current=e2e/__tests__/nativeEsmTypescript.test.ts
+[2026-04-17T10:46:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=48.4 files_done=18 resolved=17 errors=738 current=packages/jest-cli/src/init/modifyPackageJson.ts
+[2026-04-17T10:47:58Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=49.9 files_done=20 resolved=19 errors=763 current=packages/jest-diff/src/index.ts
+[2026-04-17T10:50:40Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=52.6 files_done=21 resolved=20 errors=808 current=packages/pretty-format/src/__tests__/AsymmetricMatcher.test.ts
+[2026-04-17T10:52:29Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=54.4 files_done=22 resolved=20 errors=838 current=packages/jest-resolve/src/resolver.ts
+[2026-04-17T10:58:01Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=59.9 files_done=23 resolved=20 errors=930 current=packages/jest-snapshot/src/__tests__/SnapshotResolver.test.ts
+[2026-04-17T10:59:38Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=61.5 files_done=24 resolved=20 errors=957 current=packages/jest-diff/src/getAlignedDiffs.ts
+[2026-04-17T11:02:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=64.0 files_done=25 resolved=20 errors=998 current=e2e/__tests__/consoleLogOutputWhenRunInBand.test.ts
+[2026-04-17T11:02:53Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=64.8 files_done=27 resolved=21 errors=1011 current=packages/jest-cli/src/init/index.ts
+[2026-04-17T11:04:16Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=66.2 files_done=28 resolved=21 errors=1034 current=examples/typescript/__tests__/calc.test.ts
+[2026-04-17T11:05:51Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=67.7 files_done=29 resolved=21 errors=1060 current=packages/jest-each/src/__tests__/template.test.ts
+[2026-04-17T11:16:36Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=78.5 files_done=30 resolved=22 errors=1239 current=e2e/__tests__/multipleConfigs.ts
+[2026-04-17T11:23:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=85.2 files_done=32 resolved=22 errors=1351 current=e2e/__tests__/consoleAfterTeardown.test.ts
+[2026-04-17T11:43:08Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=105.0 files_done=34 resolved=33 errors=1680 current=packages/jest-worker/src/workers/NodeThreadsWorker.ts
+[2026-04-17T11:44:49Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=106.7 files_done=35 resolved=33 errors=1708 current=e2e/__tests__/overrideGlobals.test.ts
+[2026-04-17T11:50:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=111.9 files_done=37 resolved=37 errors=1794 current=packages/jest-worker/src/WorkerPool.ts
+[2026-04-17T11:52:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=114.0 files_done=39 resolved=39 errors=1828 current=packages/jest-validate/src/__tests__/fixtures/jestConfig.ts
+[2026-04-17T11:52:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=114.8 files_done=40 resolved=39 errors=1842 current=packages/jest-each/src/index.ts
+[2026-04-17T11:55:20Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=117.2 files_done=41 resolved=39 errors=1882 current=e2e/__tests__/onlyChanged.test.ts
+[2026-04-17T12:00:54Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=122.8 files_done=42 resolved=46 errors=1975 current=packages/jest-watcher/src/lib/__tests__/prompt.test.ts
+[2026-04-17T12:02:18Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=124.2 files_done=43 resolved=46 errors=1998 current=e2e/__tests__/detectOpenHandles.ts
+[2026-04-17T12:05:15Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=127.2 files_done=44 resolved=48 errors=2047 current=packages/jest-circus/src/legacy-code-todo-rewrite/jestAdapterInit.ts
+[2026-04-17T12:08:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=130.5 files_done=45 resolved=48 errors=2103 current=e2e/__tests__/toMatchInlineSnapshot.test.ts
+[2026-04-17T12:13:43Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=135.6 files_done=46 resolved=48 errors=2188 current=e2e/__tests__/jest.config.ts.test.ts
+[2026-04-17T12:14:48Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=136.7 files_done=47 resolved=48 errors=2206 current=e2e/__tests__/filter.test.ts
+[2026-04-17T12:19:19Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=141.2 files_done=49 resolved=48 errors=2281 current=e2e/__tests__/wrongEnv.test.ts
+[2026-04-17T12:22:40Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=144.6 files_done=51 resolved=57 errors=2337 current=packages/jest-core/src/FailedTestsInteractiveMode.ts
+[2026-04-17T12:25:36Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=147.5 files_done=52 resolved=57 errors=2386 current=e2e/__tests__/watch-plugins.test.ts
+[2026-04-17T12:26:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=148.4 files_done=53 resolved=57 errors=2400 current=packages/jest-reporters/src/utils.ts
+[2026-04-17T12:30:20Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=152.2 files_done=54 resolved=57 errors=2465 current=packages/jest-matcher-utils/src/Replaceable.ts
+[2026-04-17T12:30:52Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=152.8 files_done=55 resolved=58 errors=2474 current=packages/jest-circus/src/run.ts
+[2026-04-17T12:33:12Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=155.1 files_done=56 resolved=58 errors=2513 current=packages/jest-core/src/lib/__tests__/isValidPath.test.ts
+[2026-04-17T12:34:43Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=156.6 files_done=57 resolved=58 errors=2538 current=packages/jest-haste-map/src/index.ts
+[2026-04-17T12:43:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=165.3 files_done=58 resolved=58 errors=2684 current=packages/jest-reporters/src/__tests__/utils.test.ts
+[2026-04-17T12:45:32Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=167.4 files_done=59 resolved=58 errors=2719 current=e2e/__tests__/extraGlobals.test.ts
+[2026-04-17T12:47:24Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=169.3 files_done=61 resolved=67 errors=2750 current=e2e/__tests__/forceExit.test.ts
+[2026-04-17T12:48:47Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=170.7 files_done=63 resolved=75 errors=2773 current=e2e/__tests__/console.test.ts
+[2026-04-17T12:49:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=171.7 files_done=64 resolved=78 errors=2789 current=packages/jest-types/__typetests__/jest.test.ts
+[2026-04-17T12:56:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=178.3 files_done=65 resolved=78 errors=2901 current=e2e/__tests__/snapshotResolver.test.ts
+[2026-04-17T12:59:30Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=181.4 files_done=67 resolved=78 errors=2952 current=packages/jest-core/src/__tests__/watchFileChanges.test.ts
+[2026-04-17T13:01:25Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=183.3 files_done=68 resolved=79 errors=2984 current=packages/expect/src/__tests__/toEqual-dom.test.ts
+[2026-04-17T13:04:35Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=186.5 files_done=69 resolved=111 errors=3037 current=e2e/__tests__/listTests.test.ts
+[2026-04-17T13:05:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=187.1 files_done=70 resolved=116 errors=3048 current=e2e/__tests__/globals.test.ts
+[2026-04-17T13:07:41Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=189.6 files_done=71 resolved=116 errors=3089 current=packages/jest-core/src/SnapshotInteractiveMode.ts
+[2026-04-17T13:11:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=193.8 files_done=72 resolved=116 errors=3160 current=e2e/__tests__/globalSetup.test.ts
+[2026-04-17T13:15:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=197.7 files_done=73 resolved=116 errors=3225 current=e2e/__tests__/executeTestsOnceInMpr.ts
+[2026-04-17T13:18:57Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=200.9 files_done=75 resolved=121 errors=3277 current=e2e/__tests__/resolveNoFileExtensions.test.ts
+[2026-04-17T13:20:59Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=202.9 files_done=77 resolved=122 errors=3311 current=packages/jest-circus/src/formatNodeAssertErrors.ts
+[2026-04-17T13:23:52Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=205.8 files_done=78 resolved=122 errors=3359 current=e2e/__tests__/toMatchSnapshotWithStringSerializer.test.ts
+[2026-04-17T13:25:26Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=207.3 files_done=79 resolved=122 errors=3385 current=packages/babel-jest/src/__tests__/getCacheKey.test.ts
+[2026-04-17T13:26:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=208.3 files_done=80 resolved=122 errors=3400 current=e2e/__tests__/noTestsFound.test.ts
+[2026-04-17T13:32:46Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=214.7 files_done=82 resolved=123 errors=3506 current=packages/jest-snapshot/src/__tests__/plugins.test.ts
+[2026-04-17T13:33:30Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=215.4 files_done=83 resolved=123 errors=3518 current=packages/jest-jasmine2/src/treeProcessor.ts
+[2026-04-17T13:34:42Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=216.6 files_done=84 resolved=123 errors=3538 current=e2e/Utils.ts
+[2026-04-17T13:39:49Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=221.7 files_done=85 resolved=130 errors=3623 current=e2e/__tests__/testInRoot.test.ts
+[2026-04-17T13:41:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=223.5 files_done=88 resolved=132 errors=3653 current=packages/jest-reporters/src/getSnapshotSummary.ts
+[2026-04-17T13:44:12Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=226.1 files_done=89 resolved=132 errors=3696 current=e2e/__tests__/resolveWithPaths.test.ts
+[2026-04-17T13:44:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=226.8 files_done=91 resolved=132 errors=3708 current=packages/pretty-format/src/plugins/DOMElement.ts
+[2026-04-17T13:45:57Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=227.9 files_done=92 resolved=133 errors=3725 current=packages/jest-reporters/src/SummaryReporter.ts
+[2026-04-17T13:48:04Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=230.0 files_done=93 resolved=133 errors=3760 current=packages/jest-runner/src/__tests__/testRunner.test.ts
+[2026-04-17T13:56:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=238.1 files_done=96 resolved=134 errors=3895 current=packages/jest-snapshot/src/InlineSnapshots.ts
+[2026-04-17T13:58:20Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=841 new_files_this_iter=96 mem_mb=2162 MB
+[2026-04-17T13:58:20Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850.nq.gz triples=294142
+[2026-04-17T13:58:26Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-04-17T13:58:26Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=14414 elapsed_min=240.2 files_completed=841
